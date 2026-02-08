@@ -399,3 +399,36 @@ footer.footer.footer-dark .sep{
 footer.footer.footer-dark .footer-copy{
   color:#64748b !important;
 }
+/* Footer icon links */
+.footer-icons{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:14px;
+  margin-top:6px;
+}
+
+.icon-link{
+  width:40px;
+  height:40px;
+  border-radius:999px;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  border:1px solid #e7e9f2;
+  background:#ffffff;
+  transition: transform .15s ease, box-shadow .15s ease;
+  text-decoration:none;
+}
+
+.icon-link svg{
+  width:20px;
+  height:20px;
+  fill:#2563eb;
+}
+
+.icon-link:hover{
+  transform: translateY(-1px);
+  box-shadow: 0 10px 22px rgba(2,6,23,.08);
+  text-decoration:none;
+}
